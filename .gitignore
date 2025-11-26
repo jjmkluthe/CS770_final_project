@@ -73,6 +73,7 @@ Icon?
 Desktop.ini
 
 # ---- Reports ----
+.~lock*
 *.docx~
 ~$*.docx
 ~$*.pptx
