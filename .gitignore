@@ -1,0 +1,79 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+*.log
+.DS_Store
+Thumbs.db
+
+# ---- Virtual Environments ----
+venv/
+env/
+.venv/
+.env/
+conda_env/
+.mamba/
+*.conda
+*.lock
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+jupyter_notebook_config.py
+
+# ---- Data ----
+# Keep the main dataset (CSV) in repo, ignore large or derived files
+data/
+!*.csv
+*.tsv
+*.xlsx
+*.xls
+*.ods
+*.zip
+*.tar.gz
+*.json
+*.parquet
+
+# ---- Outputs ----
+outputs/
+reports/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ---- Temporary / cache files ----
+*.tmp
+*.bak
+*.swp
+*.swo
+*.out
+*.log
+*.rpt
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.code-workspace
+.spyproject/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS generated ----
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ---- Reports ----
+*.docx~
+~$*.docx
+~$*.pptx
+~$*.tmp
